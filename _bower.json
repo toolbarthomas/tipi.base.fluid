@@ -1,0 +1,16 @@
+{
+  "name": "tipi.base.fluid",
+  "homepage": "https://github.com/toolbarthomas/tipi.base.fluid",
+  "authors": [
+    "Thomas van der Velde <contact@toolbarthomas.net>"
+  ],
+  "description": "Fluid section container",
+  "keywords": [
+    "toolbarthomas",
+    "modular",
+    "tipi",
+    "fluid"
+  ],
+  "license": "MIT",
+  "main": "_tipi.base.fluid.scss"
+}

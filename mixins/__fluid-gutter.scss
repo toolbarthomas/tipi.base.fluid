@@ -1,0 +1,10 @@
+@mixin fluid-gutter(
+	$gutter: $fluid-gutter
+) {
+	@if $gutter != false {
+		.fluid {
+			padding-top: $gutter;
+			padding-bottom: $gutter;
+		}
+	}
+}

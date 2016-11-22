@@ -1,13 +1,11 @@
 @mixin core_fluid {
 	.fluid {
 		min-width: $smartphone-min-width;
+		padding-top: $fluid-gutter;
+		padding-bottom: $fluid-gutter;
 
 		@if $fluid-background-color != false {
 			background-color: $fluid-background-color;
 		}
 	}
-
-	@include fluid-gutter(
-		$gutter: $fluid-gutter
-	);
 }
